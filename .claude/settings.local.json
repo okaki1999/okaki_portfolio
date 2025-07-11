@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:hodalab.com)",
+      "Bash(npx create-t3-app:*)",
+      "Bash(npm create t3-app:*)",
+      "WebFetch(domain:hodalog.com)",
+      "Bash(mkdir:*)",
+      "Bash(touch:*)",
+      "Bash(npx:*)",
+      "Bash(npm install:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(pkill:*)",
+      "Bash(npm run:*)",
+      "Bash(npm run build:*)",
+      "Bash(rm:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npx next-intl:*)",
+      "Bash(find:*)",
+      "Bash(npx prisma migrate dev:*)",
+      "Bash(touch:*)",
+      "Bash(find:*)",
+      "Bash(rm:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(true)",
+      "Bash(mv:*)",
+      "Bash(lsof:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(rm:*)",
+      "Bash(npx prisma migrate dev:*)",
+      "Bash(npx prisma db push:*)",
+      "Bash(npm run check:*)",
+      "Bash(rg:*)",
+      "WebFetch(domain:github.com)"
+    ],
+    "deny": []
+  }
+}
